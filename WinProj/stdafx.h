@@ -24,7 +24,8 @@
 #include <vector>
 #include <list>
 #include <algorithm>
-
+#include <mmsystem.h>
+#include <Digitalv.h>
 using namespace std;
 #pragma comment (lib,"winmm.lib")
 
@@ -56,3 +57,5 @@ using namespace std;
 #include "CImageManager.h"
 #include "CSceneManager.h"
 #include "CInputManager.h"
+#include "CSoundManager.h"
+#include "CSound.h"

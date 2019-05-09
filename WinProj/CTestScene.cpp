@@ -4,6 +4,8 @@
 #include "CAmp.h"
 #include "CAngie.h"
 #include "COctopus.h"
+#include "CBlip.h"
+#include "CItchy.h"
 
 CTestScene::CTestScene()
 {
@@ -23,10 +25,17 @@ void CTestScene::Init()
 	IMAGE.AddTexture("ANGIE_REVERSE", "./resource/Fish/angie/angie_reverse.bmp");
 	IMAGE.AddTexture("OCTOPUS", "./resource/Fish/Octopus/Octopus.bmp");
 	IMAGE.AddTexture("OCTOPUS_REVERSE", "./resource/Fish/Octopus/Octopus_reverse.bmp");
+	IMAGE.AddTexture("BLIP", "./resource/Fish/Blip/Blip.bmp");
+	IMAGE.AddTexture("BLIP_REVERSE", "./resource/Fish/Blip/Blip_reverse.bmp");
+	IMAGE.AddTexture("ITCHY", "./resource/Fish/Itchy/Itchy.bmp");
+	IMAGE.AddTexture("ITCHY_REVERSE", "./resource/Fish/Itchy/Itchy_reverse.bmp");
+
 
 	m_Fishes.push_back(new CAmp());
 	m_Fishes.push_back(new CAngie());
 	m_Fishes.push_back(new COctopus());
+	m_Fishes.push_back(new CBlip());
+	m_Fishes.push_back(new CItchy());
 
 	for (auto& iter : m_Fishes)
 	{

@@ -29,12 +29,12 @@ void CAmp::Update()
 	
 	if (m_vPos.x + m_pAnimation->GetFrameWidth() < 0)
 	{
-		m_vPos.y = rand() % (WINSIZEY - m_pAnimation->GetFrameHeight());
+		m_vPos.y = rand() % (WINSIZEY - m_pAnimation->GetFrameHeight()+30);
 		m_iDir = 1;
 	}
 	else if (m_vPos.x > WINSIZEX)
 	{
-		m_vPos.y = rand() % (WINSIZEY - m_pAnimation->GetFrameHeight());
+		m_vPos.y = rand() % (WINSIZEY - m_pAnimation->GetFrameHeight()+30);
 		m_iDir = -1;
 	}
 }

@@ -35,11 +35,11 @@
     <Filter Include="Game\Fish\Fishes">
       <UniqueIdentifier>{b3929e49-55a1-49c7-a498-6efd81f2e11f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Engine\Manager\Sound">
+      <UniqueIdentifier>{c3ad1310-8982-4079-9f10-b79d6581c9dd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CSystem.h">
-      <Filter>System</Filter>
-    </ClInclude>
     <ClInclude Include="CMainGame.h">
       <Filter>Game</Filter>
     </ClInclude>
@@ -91,6 +91,21 @@
     <ClInclude Include="COctopus.h">
       <Filter>Game\Fish\Fishes</Filter>
     </ClInclude>
+    <ClInclude Include="CBlip.h">
+      <Filter>Game\Fish\Fishes</Filter>
+    </ClInclude>
+    <ClInclude Include="CItchy.h">
+      <Filter>Game\Fish\Fishes</Filter>
+    </ClInclude>
+    <ClInclude Include="CSystem.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>Engine\Manager\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundManager.h">
+      <Filter>Engine\Manager\Sound</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CSystem.cpp">
@@ -135,6 +150,18 @@
     </ClCompile>
     <ClCompile Include="COctopus.cpp">
       <Filter>Game\Fish\Fishes</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlip.cpp">
+      <Filter>Game\Fish\Fishes</Filter>
+    </ClCompile>
+    <ClCompile Include="CItchy.cpp">
+      <Filter>Game\Fish\Fishes</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>Engine\Manager\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundManager.cpp">
+      <Filter>Engine\Manager\Sound</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
